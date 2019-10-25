@@ -104,7 +104,7 @@ void gameInterior(int& winScore, int& loseScore)
 		cin >> input; // The user inputs their guess.
 		if (!cin)     // A check is made to verify that the input is valid.
 		{
-			cout << "\nInvalid input. Please do not use characters or decimals.\n";
+			cout << "\nInvalid input. Please do not use characters or decimals.\n\n";
 		}
 		assert(cin); // This assertion will close the program if the input is invalid.
 
@@ -112,7 +112,7 @@ void gameInterior(int& winScore, int& loseScore)
 		if (input < 0 || input >100) // A check is made to verify if the input is
 		{                            // within bounds then outputs and appropriate
 			guesses--;               // prompt
-			cout << "\nHey you can't guess that silly, try agin.";
+			cout << "\nHey you can't guess that silly, try agin.\n";
 			cout << "(You have " << 20-guesses << " guesses left)";
 		}
 		else if (input == ranNum)    // A check is made to see whether or not the
