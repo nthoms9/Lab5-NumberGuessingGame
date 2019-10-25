@@ -69,7 +69,7 @@ int main() // The main function is defined here.
 	   // to play again.
 	{
 		cout << "This game will calculate a random number between 0 and 100."
-			 << "\nYour goal is to to guess this number, you'll  have 20 guesses. Good Luck! \n";
+			 << "\nYour goal is to guess this number, you'll  have 20 guesses. Good Luck! \n";
 		
 		gameInterior(winScore, loseScore); // The game Interior function is called.
 		playAgainPrompt(); // The play again function is called.
